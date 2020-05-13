@@ -55,7 +55,7 @@ header {
     min-height: 1024px;
     margin: 0 auto;
     background: url(../img/bg-logo.jpg) no-repeat;
-    background-size: contain;
+    background-size: 100%;
     padding: 40px 0;
     box-sizing: border-box;
     color: #fff;
@@ -112,11 +112,13 @@ h1 {
   
 
 .main-nav-list {
-    float: left;
+    /* float: left; */
+    display: flex;
     padding: 0;
-    width: 670px;
+    width: 770px;
     float: left;
-    margin-left: 216px;
+    margin: 20px 0;
+    margin-left: 70px;
 }
 
 .main-nav-list li {
@@ -662,7 +664,7 @@ fill: #555;
 
   .section-video {
     margin: 0 auto;
-    width: 100%;
+    width: 1920px;
     height: 705px;
     position: relative;
   }
@@ -1133,6 +1135,8 @@ fill: #555;
 }
 
 .footer-copyrights-wrapper {
+  display: flex;
+  justify-content: space-between;
   width: 1170px;
   min-height: 15px;
   margin: 0 auto;
@@ -1180,7 +1184,7 @@ fill: #555;
 }
 
 .footer-copyrights-wrapper span:first-of-type {
-  margin: 0 10px 0 430px;
+  margin: 0 10px 0 10px;
   border-right: 1px solid #252525;
   padding-right: 10px;
 }
