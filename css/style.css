@@ -1228,6 +1228,10 @@ fill: #555;
     min-height: auto;
   }  
 
+  .main-header {
+    width: 100%;
+  }
+
   label {
     float: left;
     display: block;
@@ -1329,6 +1333,7 @@ fill: #555;
   }
 
   .posts-cards {
+    width: 100%;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
