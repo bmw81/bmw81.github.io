@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 3360px;
+    margin: 0 auto;
+}
+
+header {
+    height: 1849px;
+    opacity: 0.94;
+    background-color: #455469;
+}
+
+.logo {
+    width: 490px;
+    height: 95px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    margin-top: 152px;
+    margin-left: 521px;
+    float: left;
+    font-size: 82px;
+    font-weight: 400;
+    color: #efefef;
+    padding-left: 149px;
+}
+
+.center_header {
+    width: 2258px;
+    clear: both;
+    margin-top: 454px;
+    margin-left: 512px;
+    float: left;
+    background: url(../img/center_header.png) no-repeat right;
+}
+
+.center_header h3 {
+    font-size: 102px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.center_header p {
+    font-size: 52px;
+    line-height: 84px;
+    font-weight: 400;
+    color: #c5d2e5;
+    width: 1152px;
+    margin-top: 110px;
+}
+
+.center_header a {
+    display: block;
+    width: 530px;
+    height: 156px;
+    background-color: #67bf95;
+    border-radius: 15px;
+    font-size: 72px;
+    /* Чтобы отцентровать текст внутри кнопки, задаем line-height равный высоте блока: */
+    line-height: 156px; 
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 125px;
+    transition: color 0.5s ease;
+}
+
+a:hover, input[type="submit"]:hover {
+    color: #2f3237;
+    background-color: #a1a1a1;
+    cursor: pointer;
+}
+
+.about_us {
+    height: 1015px;
+    /* opacity: 0.05; */
+    /* background-color: #f6f6f7; */
+}
+
+.center_about_us {
+    width: 1161px;
+    height: 546px;
+    background: url(../img/doc.png) no-repeat;
+    margin-left: 578px;
+    margin-top: 198px;
+    padding-left: 639px;
+    float: left;
+}
+
+.center_about_us h3 {
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #37414e;
+    padding-top: 107px;
+}
+
+.center_about_us p {
+    width: 1161px;
+    font-size: 40px;
+    line-height: 84px;
+    font-weight: 400;
+    color: #4b596c;
+    margin-top: 65px;
+}
+
+.icons {
+    float: left;
+    width: 150px;
+    margin-left: 235px;
+    margin-top: 317px;
+}
+
+.icons .pencil {
+    width: 141px;
+    height: 141px;
+    background-color: #67bf95;
+    border: 5.0px solid #67bf95;
+    border-radius: 50%;
+}
+
+.icons .facebook {
+    width: 141px;
+    height: 141px;
+    border: 5.0px solid #67bf95;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 141px;
+    font-size: 50px;
+    color: #67bf95;
+    margin-top: 118px;
+}
+
+.icons .pencil {
+    width: 141px;
+    height: 141px;
+    border: 5.0px solid #67bf95;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 141px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.modern {
+    height: 1632px;
+    opacity: 0.98;
+    background-color: #53ad82;
+}
+
+.modern h2 {
+    font-size: 112px;
+    line-height: 65px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 226px;
+}
+
+.modern p {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-left: 855px;
+    margin-top: 46px;
+}
+
+.google {
+    background: url(../img/google.png);
+    width: 2331px;
+    height: 950px;
+    margin: 0 auto;
+    margin-top: 279px;
+}
+
+.google_left, .google_right {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    border: 3px solid #b3dbc8;
+    position: relative;
+}
+
+.google_left {
+    background: url(../img/chevron-left.png) no-repeat center;
+    right: 371px;
+    top: 95px;
+}
+
+.google_right {
+    background: url(../img/chevron-right.png) no-repeat center;
+    float: right;
+    left: 371px;
+    top: -20px;
+}
+
+.mail {
+    height: 2437px;
+    opacity: 0.94;
+    background-color: #2f3237;
+    padding-top: 299px;
+}
+
+.message {
+    width: 456px;
+    height: 456px;
+    border-radius: 50%;
+    border: 51px solid #383939;
+    margin: 0 auto;
+    /* Множественный фон: */
+    background: url(../img/lsd.png) no-repeat center, url(../img/long-shadow.png) no-repeat left bottom;
+    /* Цвет фона указывется после картинок: */
+    background-color: #be393b;
+    transition: all 2s ease;
+}
+
+.message:hover {
+    transform: rotate(180deg);
+}
+
+form {
+    font-size: 70px;
+    line-height: 65px;
+    font-weight: 500;
+    color: #d7d7d7;
+}
+
+.form_left {
+    width: 945px;
+    height: 793px;
+    float: left;
+    margin-left: 610px;
+    margin-top: 251px;
+}
+
+form sup {
+    font-size: 86px;
+    line-height: 65px;
+    font-weight: 500;
+    color: #be393b;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 878px;
+    height: 144px;
+    border-radius: 10px;
+    background-color: #2f3136;
+    border: 3.0px solid rgba(255,255,255,0.52);
+    font-size: 60px;
+    color: #d7d7d7;
+    font-weight: 400;
+    padding: 0 33px;
+    margin-top: 73px;
+    margin-bottom: 106px;
+    text-transform: capitalize;
+}
+
+.form_right {
+    float: left;
+    margin-left: 258px;
+    margin-top: 251px;
+}
+
+textarea {
+    width: 1074px;
+    height: 580px;
+    border-radius: 10px;
+    background-color: #2f3136;
+    border: 3.0px solid rgba(255,255,255,0.52);
+    font-size: 60px;
+    color: #d7d7d7;
+    font-weight: 400;
+    padding: 0 33px;
+    margin-top: 73px;
+}
+
+input[type="submit"] {
+    width: 460px;
+    height: 184px;
+    background-color: #be393b;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    border: none;
+    margin-top: 186px;
+    float: right;
+    transition: color 0.5s ease;
+}
+
+footer {
+    height: 390px;
+    background-color: #2f3237;
+}
+
+.icons_footer {
+    height: 95px;
+    width: 310px;
+    float: right;
+    margin-top: 160px;
+    margin-right: 538px;
+}
+
+.twit, .fb {
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+    background-color: #2f3338;
+    border: 5px solid #454648;
+    float: left;
+    font-size: 44.2px;
+    line-height: 89px;
+    font-weight: 400;
+    color: #656566;
+    text-align: center;
+}
+
+.twit {
+    margin-right: 105px;
+}
