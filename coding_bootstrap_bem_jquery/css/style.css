@@ -1,0 +1,551 @@
+@import 'fonts.css';
+
+/* * {
+    outline: none !important;
+} */
+body {
+    font-family: 'Open Sans';
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar {
+    padding: 20px 0;
+    color: #918383;
+    background: #fff;
+}
+.menu__item {
+    margin-left: 37px;
+    color: #212121;
+}
+.menu__item a {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    color: #212121;
+}
+.menu__item a:hover {
+    text-decoration: none;
+    color: #cecece;
+}
+
+/* Шапка */
+.header {
+    padding: 180px 0;
+    text-align: center;
+    background-image: url(../img/header.png); /* Фоновая картинка для контейнера */
+    background-size: cover;
+    background-position: 0 100%;
+    color: #fff;
+}
+.header__title {
+    font-size: 55px;
+}
+.header__text {
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+.button {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    transition: 0.3s;
+    background: #00897b;
+    border: 3px solid #00897b;
+    text-transform: uppercase;
+}
+.button:hover {
+    background: transparent;
+    border: 3px solid #fff;
+}
+
+/* О нас */
+.about {
+    padding: 125px 0;
+    color: #000;
+    text-align: center;
+}
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.about__text {
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #212121;
+}
+.about__h3 {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+
+/* Наши услуги */
+.services {
+    padding: 165px 0 125px 0;
+    background: #e4fdf9;
+    color: #000;
+    text-align: center;
+}
+.our_card {
+    padding: 50px 50px 40px;
+    background: #fff;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.icon_big {
+    font-size: 50px;
+}
+.button-services {
+    padding: 12px 15px;
+    background: transparent;
+    border: 2px solid #000;
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.our_card:hover {
+    background: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.26);
+}
+.our_card:hover .text_hov,
+.our_card:hover .icon_big {
+    color: #fff;
+    transition: 0.3s;
+}
+.our_card:hover .button-services {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* Портфолио */
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 135px;
+    text-align: center;
+}
+.portfolio button:hover,
+.focused {
+    background: transparent;
+    border: 2px solid #00897b;
+    color: #000;
+}
+.portfolio img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.filter {
+    padding: 120px 0;
+}
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+.text {
+    display: none;
+}
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+}
+
+/* Цены */
+.pricing {
+    background: #f0f1f1;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 125px;
+}
+.price {
+    background: #fff;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.price:hover {
+    box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.5);
+}
+.price__head {
+    background-image: url('../img/Rectangle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    padding-bottom: 65px;
+    min-height: 211px;
+    color: #fff;
+    font-size: 50px;
+}
+.price__head p {
+    font-size: 25px;
+}
+.price__head sup {
+    font-size: 25px;
+    vertical-align: middle;
+}
+.price__head sub {
+    font-size: 17px;
+    vertical-align: middle;
+}
+.price__body {
+    font-size: 17px;
+    color: #212121;
+    padding: 0 100px;
+}
+.price__body ul li {
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 10px;
+    margin-bottom: 37px;
+
+}
+.price__footer {
+    padding-bottom: 60px;
+}
+.price__footer button:hover {
+    color: #fff;
+    background-color: #00897b;
+    border: none;
+    transition: 0.3s; 
+}
+
+/* Команда */
+.team {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 125px;   
+}
+.team img {
+    margin: 0 auto;
+    width: 340px;
+}
+.team h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+.team p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+.icons > a > i {
+    font-size: 50px;
+    /* color: black; */
+}
+.multiple-items {
+    margin-top: 125px;
+}
+.dots-style {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+}
+.dots-style button {
+    background: #00897b;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    outline: none;
+}
+.dots-style li[class="slick-active"] button {
+    background: #3949ab;
+}
+
+/* Блог */
+.left > div:first-child {
+    order: 1;
+}
+.left > div:last-child {
+    order: 2;
+}
+.right > div:first-child {
+    order: 2;
+}
+.right > div:last-child {
+    order: 1;
+}
+.blog {
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.blog a {
+    font-size: 25px;
+    font-family: 'Open Sans Semibold';
+    color: #000;
+}
+.blog a:hover {
+    color: #00897b;
+    text-decoration: none;
+}
+.blog div {
+    margin-top: 15px;
+}
+.blog span {
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+    margin-right: 35px;
+}
+.blog i {
+    padding-right: 10px;
+}
+.blog p {
+    margin-top: 15px;
+}
+.left, .right {
+    margin: 0 -40px;
+}
+.button_blog {
+    width: 220px;
+    height: 70px;
+    color: #fff;
+    background: #00897b;
+    border: none;
+    outline: none;
+    margin-top: 125px; 
+    transition: 0.3s;
+    padding: 0;
+}
+.button_blog:active, .button_blog:focus {
+    outline: none;
+    background: #fff;
+    color: #000;
+}
+.footer {
+    padding-top: 120px;
+    padding-bottom: 110px;
+    text-align: center;
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    /* background-position: 0 100%; */
+    color: #fff;
+}
+.footer .about__text {
+    color: #fff;
+    font-size: 15px;
+}
+.fa-map-marker-alt, .fa-phone-alt, .fa-envelope {
+    font-size: 62px;
+}
+.circle {
+    background: #3949ab;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+}
+.footer p {
+    font-size: 20px;
+}
+.footer input,
+.footer textarea {
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.footer input:focus,
+.footer textarea:focus {
+    outline: none;
+}
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    resize: none;
+}
+.footer button {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #212121;
+    transition: 0.3s;
+}
+.footer button:hover {
+    opacity: 0.5;
+}
+.form {
+    margin-top: 70px;
+}
+.rules {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans Semibold';
+}
+
+/* Кнопка Наверх */
+#toTop {
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #00897b;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #000;
+}
+.menu-icon {
+    display: none;
+}
+/* Чтобы не было отступа справа у адаптива для мобильных устройств */
+.wrapper {  
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* Адаптив: */
+@media screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+    .logo-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-icon {
+        display: block;
+        background: #00897b;
+        border: none;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .blog {
+        padding: 10px 80px 60px 80px;
+    }
+    .right > div:first-child {
+        order: 1;
+    }
+    .right > div:last-child {
+        order: 2;
+    }
+    .button_blog {
+        margin-top: 50px;
+    }
+    .portfolio button {
+        margin-top: 10px;
+    }
+    .footer input, .footer textarea {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 20px;
+    }
+    .header__title {
+        font-size: 45px;
+    }
+    .header__text {
+        margin-bottom: 20px;
+    }
+    .header .button {
+        margin-top: 10px;
+    }
+    #toTop {
+        right: 30px;
+    }
+    .about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .about__title {
+        margin-bottom: 10px;
+    }
+    .about__text {
+        margin-bottom: 20px;
+    }
+    .about__h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .our_card {
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+    .portfolio {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .filter {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .price__footer {
+        padding-bottom: 10px;
+    }
+    .price__body > ul > li {
+        margin-bottom: 10px;
+    }
+    .team {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .team img {
+        max-width: 320px;
+    }
+    .dots-style {
+        margin-top: 15px;
+    }
+    .blog {
+        padding: 10px 30px 10px;
+    }
+    .img-fluid {
+        max-width: 80%;
+    }
+    .left, .right {
+        flex-direction: column;
+    }
+    .blog i {
+        margin-right: -5px;
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .circle {
+        margin-bottom: 10px;
+    }
+    .footer input {
+        margin-bottom: 0;
+    }
+}
