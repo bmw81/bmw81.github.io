@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+body {
+    background: #d1c4c4;
+}
+.container {
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-image: url(../img/Macbook\ Pro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 150px;
+    min-height: 720px;
+    text-align: center;
+}
+h1  {
+    margin-bottom: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.list-unstyled li {
+    border: 2px solid #a39e9e;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #201f1f;
+    transition: 0.5s;
+}
+.list-unstyled li:hover {
+    background: #a39e9e;
+}
+.list-unstyled li:hover a {
+    color: #201f1f;
+}
+.list-unstyled a {
+    display: block;
+    min-width: 100%;
+    color: #a39e9e;
+    font-size: 20px;
+    text-decoration: none;
+    /* padding: 0 205px; */
+}
