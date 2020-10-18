@@ -44,6 +44,10 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+.container {
+  min-height: 100%;
+  overflow: hidden;
+}
 
 p {
     margin: 0;
