@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    body header .mainText {
+        margin-bottom: 70px;
+    }
+    body .expand {
+        padding: 30px 30px 10px 30px;
+    }
+    body .expand .mainText {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+    body .expand .mainText h1 {
+        font-size: 30px 10px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 549px) {
+    nav {
+        padding: 0 20px;
+    }
+    menu {
+        flex-direction: column;
+    }
+    menu li {
+        margin-bottom: 10px;
+    }
+    body header .mainText {
+        margin-bottom: 30px;
+    }
+    body header .mainText h1 {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    body header .mainText p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    body .expand {
+        padding: 10px;
+    }
+    body .expand .mainText {
+        border: none;
+        padding: 20px 0;
+    }
+    body .expand .mainText h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    body .our_process .steps {
+        display: block;
+    }
+    body .our_process .back_process {
+        display: none;
+    }
+    body .our_team .wrap {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .receive {
+        padding: 30px 20px;
+    }
+    .receive h1 {
+        font-size: 20px;
+    }
+    .receive p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icons div {
+        max-width: 350px;
+    }
+    .icons div p {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 996px) {
+    .left .btn {
+        padding: 6px 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body .wedo1, body .wedo2 {
+        text-align: center;
+        padding: 10px;
+    }
+    body .wedo1 .container,
+    body .wedo2 .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    body .wedo1 .container .right {
+        order: 1;
+    }
+    body .wedo1 .container .left {
+        order: 2;
+    }
+    body .wedo2 .container .left{
+        text-align: center;
+    }
+    body .wedo1 .container img,
+    body .wedo2 .container img {
+        width: 100%;
+    }
+    body .wedo1 p {
+        padding-right: 0;
+    }
+}
