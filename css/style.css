@@ -61,7 +61,7 @@ h1  {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     h1 {
         margin-bottom: 70px;
     }
