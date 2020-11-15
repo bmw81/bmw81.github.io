@@ -19,7 +19,7 @@ h1  {
     font-family: 'Tenor Sans', sans-serif;
     text-align: center;
 }
-.list-unstyled li {
+li {
     border: 2px solid #a39e9e;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -27,18 +27,35 @@ h1  {
     transition: 0.5s;
     padding: 5px 0 5px 10px;
 }
-.list-unstyled li:hover {
+li:hover {
     background: #a39e9e;
 }
-.list-unstyled li:hover a {
+li:hover a {
     color: #201f1f;
 }
-.list-unstyled a {
+a {
     display: block;
     min-width: 100%;
     color: #a39e9e;
     font-size: 20px;
     text-decoration: none;
+}
+.page {
+    margin: 0 auto;
+    width: 270px;
+    background:  #999797;
+    text-align: center;
+    transition: 0.5s;
+}
+.page a {
+    color: #201f1f;
+}
+.page:hover {
+    background: #636262;
+}
+.page:hover a {
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (max-width: 1200px) {
